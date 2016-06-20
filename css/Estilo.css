@@ -6,34 +6,43 @@ font-family: 'Averia Sans Libre', cursive;
  */
 
 #contenidos{
-	width: 1000px;
+	width: 1500px;
 	height: auto;
 	margin: auto;
 	position: relative;
-	background-color: blue;
+	background-color: none;
 } 
 
 body{
 	background-image: url(../imagen/fondo.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 }
 
 h1{
 	font-family: 'Kaushan Script', cursive;
 	margin-left: 10px;
 	font-size: 60px;
-	text-align: center;
+	text-align: left;
+	width: 689px;
+	background:-webkit-gradient(linear, 100% 0%, 22% 100%, from(#FFFFFF), to(#FF81C2));
+	border-top-left-radius:75px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:75px;
+	opacity: 0.85;
 }
+
 h2{
 	font-family: 'Finger Paint', cursive;
 	font-size: 30px;
 	width: 1000px;
 	height: auto;
 	background-color: lightpink;
+	opacity: 0.85;
 }
+
 header{
-	width: 1000px;
-	height: 200px;
-	background-color: pink;
+	width: auto;
+	height: auto;
 }
