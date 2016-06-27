@@ -5,7 +5,7 @@ font-family: 'Finger Paint', cursive;
 font-family: 'Averia Sans Libre', cursive;
  */
 
-#contenidos{
+.contenidos{
 	width: 1500px;
 	height: auto;
 	margin: auto;
@@ -17,7 +17,7 @@ body{
 	background-color: white;
 }
 
-h1{
+.titulo{
 	font-family: 'Kaushan Script', cursive;
 	margin-left: 10px;
 	font-size: 80px;
@@ -30,6 +30,11 @@ h1{
 	border-bottom-right-radius:75px;
 	opacity: 0.85;
 }
+h1 a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
 
 h2{
 	font-family: 'Finger Paint', cursive;
