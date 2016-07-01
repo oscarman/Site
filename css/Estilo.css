@@ -21,8 +21,10 @@ header,.main,footer{
 	margin: 20px auto;
 }
 
-
-
+a{
+	text-decoration: none;
+	color: #6B9FFF;
+}
 
 /*header_Titulo*/
 .titulo{
@@ -84,6 +86,21 @@ header nav ul li a:hover{
 	float: left;
 }
 
+.titulo_article{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 20px;
+	width: 600px;
+	max-width: 100%;
+	height: 30px;
+	padding: 5px;
+	margin-left: -5px;
+	border-top-right-radius:80px;
+	border-top-left-radius:80px;
+	border-bottom-right-radius:80px; 
+	border-bottom-left-radius:80px;
+	background-color: #3F82FF;
+	opacity: 0.85;
+}
 
 .subtitulo_article {
 	font-family: 'Finger Paint', cursive;
@@ -112,6 +129,70 @@ header nav ul li a:hover{
 	border-top-right-radius:40px;
 	border-top-left-radius:30px;
 	padding: 0px 5px 5px 5px;
+}
+
+.imagen{
+	display: inline-block;
+	width: 100%;
+	float: left;
+}
+
+.imagen img{
+	width: 100%;
+}
+
+.nino{
+	display: inline-block;
+	float: left;
+	width: 45%;
+ 	margin: 10px;
+ 	padding: 0.2%;
+ 	box-shadow: 0px 3px #3F82FF;
+}
+
+.imagen_noticia img{
+	width: 100%;
+}
+
+.descripcion_noticia{
+	font-size: 40px;
+}
+
+.prox {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 400%;
+	text-align: center;
+	width: 100%;
+	color: #3F82FF;
+	padding: 150px 5px;
+}
+
+.fb_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.wsp_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.inst_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.tw_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
 }
 
 /*aside*/
@@ -148,6 +229,7 @@ aside{
 	padding: 45% 30% 45% 10%;
 	margin-left: 30%;
 	margin-top: 3px;
+	margin-bottom: 10px;
 	max-width: 30%;
 	display: inline-block;
 	text-decoration: none;
@@ -164,7 +246,7 @@ aside{
 /*footer*/
 footer{
 	text-align: center;
-	background-color: #000;
+	background-color: #3F82FF;
 	color: #FFFFFF;
 	clear: both;
 	padding: 10px 0px;
